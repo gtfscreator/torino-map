@@ -3,8 +3,8 @@
   "map" : {
     "center" : [7.70, 45.1],
     "centerProjection" : "EPSG:4326",
-    "zoom" : 12,
-    "minZoom" : 12,
+    "zoom" : 11,
+    "minZoom" : 11,
     "maxZoom" : 18,
     "extent" : [7.13202, 44.38305,  8.4604, 45.55421 ],
     "extentProjection" : "EPSG:4326"
