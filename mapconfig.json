@@ -1,0 +1,36 @@
+{
+  "title" : "GTFS ROUTES TORINO",
+  "map" : {
+    "center" : [9.2, 45.483333],
+    "centerProjection" : "EPSG:4326",
+    "zoom" : 12,
+    "minZoom" : 12,
+    "maxZoom" : 18,
+    "extent" : [7.13202, 44.38305,  8.4604, 45.55421 ],
+    "extentProjection" : "EPSG:4326"
+  },
+
+  "layers" : [
+
+    {
+      "name" : "darkmatter",
+      "layerType" : "cartodb",
+      "layerOptions" : { "layer" : "dark-matter" }
+    },
+    {
+      "name" : "routes",
+      "layerType" : "geojson",
+      "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/2/routes.geojson/"},
+      "templatePopup" : "templates/table.html"
+    },
+    {
+      "name" : "stops",
+      "layerType" : "geojson",
+      "layerOptions" : { "url" : "http://gtfs.inmagik.com/api/feeds/2/stops.geojson/"},
+      "templatePopup" : "templates/table.html",
+      "minZoom" : 14
+    }
+
+  ]
+
+}
