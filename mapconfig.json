@@ -1,7 +1,7 @@
 {
   "title" : "GTFS ROUTES TORINO",
   "map" : {
-    "center" : [9.2, 45.483333],
+    "center" : [7.8, 45.0],
     "centerProjection" : "EPSG:4326",
     "zoom" : 12,
     "minZoom" : 12,
